@@ -38,7 +38,7 @@ The AI component processes patient voice inputs. Here’s how to set it up:
 
 1. **Navigate to the AI Directory:**
    ```bash
-   cd aipart
+   cd AI-part
    ```
 
 2. **Create a Python Virtual Environment:**
@@ -55,7 +55,7 @@ The AI component processes patient voice inputs. Here’s how to set it up:
 
 4. **Run the AI Component:**
    ```bash
-   uvicorn ai_app:app --reload
+   uvicorn app:app --reload
    ```
 
 ### 2. Backend
