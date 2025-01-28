@@ -66,7 +66,7 @@ The backend manages data flow and interactions between the AI and frontend. It i
 
 1. **Navigate to the Backend Directory:**
    ```bash
-   cd backend
+   cd backend-careconnect
    ```
 
 2. **Install Dependencies:**
@@ -79,15 +79,15 @@ The backend manages data flow and interactions between the AI and frontend. It i
    npm start
    ```
 
-### 3. Frontend
+### 3. Frontend for admin
 
-The frontend provides the user interfaces for admin, nurse, and patient roles.
+The frontend provides the user interfaces for admin roles.
 
 #### Steps:
 
 1. **Navigate to the Frontend Directory:**
    ```bash
-   cd frontend
+   cd SpringBoardApp_Admin_App
    ```
 
 2. **Install Frontend Dependencies:**
@@ -101,7 +101,29 @@ The frontend provides the user interfaces for admin, nurse, and patient roles.
    npm start
    ```
 
-### 4. Running the Entire System
+### 4. Frontend for admin
+
+The frontend provides the user interfaces for nurse, and patient roles.
+
+#### Steps:
+
+1. **Navigate to the Frontend Directory:**
+   ```bash
+   cd SpringBoardApp_FrontEnd
+   ```
+
+2. **Install Frontend Dependencies:**
+   If using a framework like React or Angular:
+   ```bash
+   npm install
+   ```
+
+3. **Run the Frontend Application:**
+   ```bash
+   npm start
+   ```
+
+### 5. Running the Entire System
 
 Run each component in separate terminals:
 
