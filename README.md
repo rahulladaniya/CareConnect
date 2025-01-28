@@ -101,7 +101,7 @@ The frontend provides the user interfaces for admin roles.
    npm start
    ```
 
-### 4. Frontend for admin
+### 4. Frontend for nurse, patient
 
 The frontend provides the user interfaces for nurse, and patient roles.
 
