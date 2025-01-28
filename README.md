@@ -140,9 +140,10 @@ Once all components are running, you can interact with the system through the fr
 ```
 care_connect/
 |-- aipart/            # AI processing
-|-- backend/           # Backend APIs (Node.js)
-|-- frontend/          # Frontend interface
-|-- requirements.txt   # Python dependencies
+            |-- requirements.txt 
+|-- backend-careconnect/           # Backend APIs (Node.js)
+|-- SpringBoardApp_Admin_App/      # Frontend interface for admin
+-- SpringBoardApp_FrontEnd/        # Frontend interface for nurse,patient
 ```
 
 ---
